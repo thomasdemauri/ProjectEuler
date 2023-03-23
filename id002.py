@@ -12,11 +12,13 @@ four million, find the sum of the even-valued terms.
 def fib(limit):
     sumEven = 0
     a, b = 0, 1
+
     while b < limit:
-        if (b % 2) == 0: 
+        if (b % 2) == 0:
             sumEven += b
-            tmp = a + b
-            a, b = b, tmp
+        tmp = a + b
+        a, b = b, tmp
+
     return sumEven
 
 
