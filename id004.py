@@ -19,7 +19,7 @@ def palindromic():
                 palindromic = i + palindromic
 
             # If they are palindromic and the number is greater than the
-            # last known palindromic, update it.
+            # last known largest palindromic, update it.
             if str(result) == palindromic and result > largest:
                 largest = result
 
