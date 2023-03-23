@@ -26,7 +26,7 @@ def palindromic():
     return largest
 
 
-begin = t.time()
+start = t.time()
 print(palindromic())
 end = t.time()
-print(end - begin)
+print(end - start)
